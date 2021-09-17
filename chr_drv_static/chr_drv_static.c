@@ -12,7 +12,7 @@ MODULE_LICENSE("GPL");
 MODULE_LICENSE("GPL v2");
 MODULE_LICENSE("Dual BSD/GPL");
 
-MODULE_AUTHOR("surendra");
+MODULE_AUTHOR("roshini");
 MODULE_DESCRIPTION("A sample driver");
 MODULE_VERSION("1:0.3");
 
@@ -89,5 +89,3 @@ static void __exit hello_world_exit(void)
  	printk(KERN_INFO"hello world  exit ");
 }
 module_exit(hello_world_exit)
-
-
